@@ -5,8 +5,8 @@ import java.util.*;
 
 public class GameSnake {
 
-    final String TITLE_OF_PROGRAM = "Classic Game Snake"; //финал это константа
-    final String GAME_OVER_MSG = "GAME OVER";
+    final String TITLE_OF_PROGRAM = "Игра Змейка"; //финал это константа
+    final String GAME_OVER_MSG = "Конец игры";
     final int POINT_RADIUS = 20; // in pix
     final int FIELD_WIDTH = 30; // in point
     final int FIELD_HEIGHT = 20;
@@ -24,10 +24,8 @@ public class GameSnake {
     final int START_DIRECTION = RIGHT;
     final Color DEFAULT_COLOR = Color.green;
     final Color FOOD_COLOR = Color.red;
-    //final Color POISON_COLOR = Color.red;
     Snake snake;
     Food food;
-    //Poison poison;
     JFrame frame;
     Canvas canvasPanel;
     Random random = new Random();
